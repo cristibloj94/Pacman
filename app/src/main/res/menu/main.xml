@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.example.canvasdemo.MainActivity" >
+
+    <item
+        android:id="@+id/action_newGame"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/new_game"/>
+
+    <item
+        android:id="@+id/action_pauseGame"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/pause"/>
+
+    <item
+        android:id="@+id/action_ContinueGame"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="@string/resume"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>
